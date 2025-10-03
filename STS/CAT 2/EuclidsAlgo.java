@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class EuclidsAlgo {
     public static int eucliAlgo(int x, int y){
         int remainder;
 
@@ -14,10 +14,11 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int x = 24;
-        int y = 12;
+        Scanner scan = new Scanner(System.in);
 
-        int GCD = eucliAlgo(x, y);
-        System.out.println(GCD);
+        int x = scan.nextInt();
+        int y = scan.nextInt();
+
+        System.out.println(eucliAlgo(x, y));
     }
 }
