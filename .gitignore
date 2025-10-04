@@ -1,2 +1,3 @@
-Main.java
-*.class
+**/Main.java
+**/*.class
+Main2.java
